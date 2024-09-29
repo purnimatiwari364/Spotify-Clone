@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Playlist</title>
+    <link rel="Stylesheet" href="Style.css"/>
+</head>
+<body>
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-img"src="images/image.png" alt="left banner image"/>
+            <div class="heading">
+            <h1>Deep Focus</h1>
+            <p>Keep Your Focus And Enjoy The Serenity</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="Controls" onclick="playaudio()" id="play-pause">
+            <img class="play-button"src="images/play-button.svg" alt="play-img"/>
+        </div> 
+        <audio id="song"></audio>
+        <table>
+            <thead>
+                <th class="Song-number">#</th>
+                <th class="Song-title">Title</th>
+                <th class="Song-Artist">Artist</th>
+                <th class="Song-Duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playall(1)">
+                <td>1</td>
+                <td>Blurred Lines</td>
+                <td>Robin Thicke(ft.TI and Pharell)</td>
+                <td>04:23</td>
+            </tr>
+            <tr id="song2" onclick="playall(2)">
+                <td>2</td>
+                <td>Ek Main or ek tu</td>
+                <td>Amit Trivedi,Anushka,Benny Dayal</td>
+                <td>04.23</td>
+            </tr>
+            <tr id="song3" onclick="playall(3)">
+                <td>3</td>
+                <td>Kho Gaya</td>
+                <td>Zaeden</td>
+                <td>02.56</td>
+            </tr>
+            <tr id="song4" onclick="playall(4)">
+                <td>4</td>
+                <td>Meharama</td>
+                <td>Darshan Rawal,Antara Mitra</td>
+                <td>04.09</td>
+            </tr>
+            <tr id="song5" onclick="playall(5)">
+                <td>5</td>
+                <td>RipTide</td>
+                <td>Vance Joy</td>
+                <td>03.24</td>
+            </tr>
+            <tr id="song6" onclick="playall(6)">
+                <td>6</td>
+                <td>SoftCore</td>
+                <td>The Nazia Forbe</td>
+                <td>03.26</td>
+            </tr>
+            <tr id="song7" onclick="playall(7)">
+                <td>7</td>
+                <td>The Way Life Goes</td>
+                <td>LIL uzi Vert</td>
+                <td>03.41</td>
+            </tr>
+            <tr id="song8" onclick="playall(8)">
+                <td>8</td>
+                <td>This is what Falling In Love</td>
+                <td>JVKE</td>
+                <td>02.00</td>
+            </tr>
+         <script src="script.js"></script>  
+
+        </table>
+    </div>
+</body>
+</html>
